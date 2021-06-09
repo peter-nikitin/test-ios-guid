@@ -7,16 +7,78 @@
 
 import UIKit
 import CoreData
+import Mindbox
 
-@main
-class AppDelegate: UIResponder, UIApplicationDelegate {
+@UIApplicationMain
+class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
 
-
+    //    MARK: didRegisterForRemoteNotificationsWithDeviceToken
+       //    Передача токена APNS в SDK Mindbox
+       func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+           Mindbox.shared.apnsTokenUpdate(deviceToken: deviceToken)
+       }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        return true
+        
+        // Вызываем функциб регистрации на пуши
+        registerForRemoteNotifications()
+
+        
+        do {
+                   //    Конфигурация SDK
+                   let configuration = try MBConfiguration(
+                       endpoint: "mpush-test-ios-sandbox-docs",
+                       domain: "api.mindbox.ru",
+                       subscribeCustomerIfCreated: true
+                   )
+                   
+                   Mindbox.shared.initialization(configuration: configuration)
+               } catch let error {
+                   print(error)
+               }
+                       
+               // Регистрация фоновых задач для iOS выше 13
+               if #available(iOS 13.0, *) {
+                   Mindbox.shared.registerBGTasks()
+               } else {
+                               UIApplication.shared.setMinimumBackgroundFetchInterval(UIApplication.backgroundFetchIntervalMinimum)
+               }
+               
+        Mindbox.shared.getDeviceUUID { deviceUUID in
+            print(deviceUUID)
+        }
+        
+               return true
     }
+    
+    // Регистрация фоновых задач для iOS до 13
+        func application(_ application: UIApplication, performFetchWithCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+            Mindbox.shared.application(application, performFetchWithCompletionHandler: completionHandler)
+        }
+        
+        //    MARK: registerForRemoteNotifications
+        //    Функция запроса разрешения на уведомления. В комплишн блоке надо передать статус разрешения в SDK Mindbox
+        func registerForRemoteNotifications() {
+            UNUserNotificationCenter.current().delegate = self
+            DispatchQueue.main.async {
+                UIApplication.shared.registerForRemoteNotifications()
+                UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) { granted, error in
+                    print("Permission granted: \(granted)")
+                    if let error = error {
+                        print("NotificationsRequestAuthorization failed with error: \(error.localizedDescription)")
+                    }
+                    Mindbox.shared.notificationsRequestAuthorization(granted: granted)
+                }
+            }
+        }
+        
+        //    MARK: didReceive response
+        //    Функция обработки кликов по нотификации
+        func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+            Mindbox.shared.pushClicked(response: response)
+            completionHandler()
+        }
 
     // MARK: UISceneSession Lifecycle
 
