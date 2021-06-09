@@ -15,6 +15,7 @@ class NotificationViewController: UIViewController, UNNotificationContentExtensi
     lazy var mindboxService = MindboxNotificationService()
         
         func didReceive(_ notification: UNNotification) {
+            
             mindboxService.didReceive(notification: notification, viewController: self, extensionContext: extensionContext)
         }
 
