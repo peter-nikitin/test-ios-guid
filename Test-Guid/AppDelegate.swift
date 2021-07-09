@@ -10,77 +10,68 @@ import CoreData
 import Mindbox
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
+class AppDelegate: MindboxAppDelegate {
 
-    //    MARK: didRegisterForRemoteNotificationsWithDeviceToken
-       //    Передача токена APNS в SDK Mindbox
-       func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
-           Mindbox.shared.apnsTokenUpdate(deviceToken: deviceToken)
-       }
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        
-        // Вызываем функциб регистрации на пуши
-        registerForRemoteNotifications()
-
-        
-        do {
-                   //    Конфигурация SDK
-                   let configuration = try MBConfiguration(
-                       endpoint: "mpush-test-ios-sandbox-docs",
-                       domain: "api.mindbox.ru",
-                       subscribeCustomerIfCreated: true
-                   )
-                   
-                   Mindbox.shared.initialization(configuration: configuration)
-               } catch let error {
-                   print(error)
-               }
-                       
-               // Регистрация фоновых задач для iOS выше 13
-               if #available(iOS 13.0, *) {
-                   Mindbox.shared.registerBGTasks()
-               } else {
-                               UIApplication.shared.setMinimumBackgroundFetchInterval(UIApplication.backgroundFetchIntervalMinimum)
-               }
-               
-        Mindbox.shared.getDeviceUUID { deviceUUID in
-            print(deviceUUID)
-        }
-        
-               return true
-    }
     
-    // Регистрация фоновых задач для iOS до 13
-        func application(_ application: UIApplication, performFetchWithCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
-            Mindbox.shared.application(application, performFetchWithCompletionHandler: completionHandler)
+    override func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+            // Call super when using MindboxAppDelegate
+            super.application(application, didFinishLaunchingWithOptions: launchOptions)
+
+            // Вызов метода регистрации уведомлений
+            registerForRemoteNotifications()
+            
+            var errorMessage = "";
+            
+            do {
+                //    Конфигурация SDK
+                let configuration = try MBConfiguration(
+                    endpoint: "mpush-test-ios-sandbox-docs",
+                    domain: "api.mindbox.ru",
+                    subscribeCustomerIfCreated: true
+                )
+                
+                
+                Mindbox.shared.initialization(configuration: configuration)
+                errorMessage = "";
+            } catch  {
+               print(errorMessage);
+            }
+           
+        Mindbox.shared.getDeviceUUID {
+            deviceUUID in print(deviceUUID)
         }
         
-        //    MARK: registerForRemoteNotifications
-        //    Функция запроса разрешения на уведомления. В комплишн блоке надо передать статус разрешения в SDK Mindbox
-        func registerForRemoteNotifications() {
-            UNUserNotificationCenter.current().delegate = self
-            DispatchQueue.main.async {
-                UIApplication.shared.registerForRemoteNotifications()
-                UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) { granted, error in
-                    print("Permission granted: \(granted)")
-                    if let error = error {
-                        print("NotificationsRequestAuthorization failed with error: \(error.localizedDescription)")
-                    }
-                    Mindbox.shared.notificationsRequestAuthorization(granted: granted)
-                }
-            }
+        Mindbox.shared.getAPNSToken{
+            APNSToken in print(APNSToken)
         }
-    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+            return true
+        }
+
+
+    func userNotificationCenter(
+        _ center: UNUserNotificationCenter,
+        willPresent notification: UNNotification,
+        withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void
+    ) {
         completionHandler([.alert, .badge, .sound])
     }
-        //    MARK: didReceive response
-        //    Функция обработки кликов по нотификации
-        func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
-            Mindbox.shared.pushClicked(response: response)
-            completionHandler()
-        }
+    
+    //    MARK: registerForRemoteNotifications
+      //    Функция запроса разрешения на уведомления. В комплишн блоке надо передать статус разрешения в SDK Mindbox
+      func registerForRemoteNotifications() {
+          UNUserNotificationCenter.current().delegate = self
+          DispatchQueue.main.async {
+              UIApplication.shared.registerForRemoteNotifications()
+              UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) { granted, error in
+                  print("Permission granted: \(granted)")
+                  if let error = error {
+                      print("NotificationsRequestAuthorization failed with error: \(error.localizedDescription)")
+                  }
+                  Mindbox.shared.notificationsRequestAuthorization(granted: granted)
+              }
+          }
+      }
+   
 
     // MARK: UISceneSession Lifecycle
 

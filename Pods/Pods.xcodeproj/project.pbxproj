@@ -23,7 +23,6 @@
 		19E22F18E1DFF60588FCC79E78C9D6BD /* CDEvent+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1329961A37DEE5E0F7DC7DE330EB6509 /* CDEvent+CoreDataClass.swift */; };
 		1D6FC5F8B539F7B650A60A3EC9245D81 /* MobileApplicationInfoUpdated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2257F6032DCFF9AE0CF40D19D7B38A83 /* MobileApplicationInfoUpdated.swift */; };
 		222FF3896C1014E49C010865F0C0F292 /* MBDatabaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6147ACCE0ACE0781EDF2DB36D1FF1F /* MBDatabaseRepository.swift */; };
-		2ABAE91F640F6CB14DAAFDF8FF1C6B91 /* Pods-Test-Guid-MindboxNotificationContentExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8FBC7B60DA8666B152CEF1263E9842C /* Pods-Test-Guid-MindboxNotificationContentExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B7F6FACE31624CDA7F22C39CD50BC80 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E88EAFB91D402199505E79FC1449ECC /* TimerManager.swift */; };
 		317F0B5EC372115F5EE09B6FF69B6BB8 /* GuaranteedDeliveryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5BDAD736CE4704488C365617A7C0BD /* GuaranteedDeliveryManager.swift */; };
 		324DDB8F31C9EF7DA7F1A8C19DA69BE5 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE2E119343941ACFF7BD45DCF4E485C /* SessionManager.swift */; };
@@ -52,22 +51,20 @@
 		5D60F7023C22162E5EE8D628EFE1773B /* PushDelivered.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C0D105B32A6EC77C14413E5F526E4B /* PushDelivered.swift */; };
 		5F55D021F26F6051389999155C8FABE3 /* DiscountRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EA2825F353851369A6442675DC964D /* DiscountRequest.swift */; };
 		626C36F11C336E8515503DBD538BD832 /* EventRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441B5C7112677A612BBEB5E6DD4E7EC /* EventRepository.swift */; };
-		65B126B420D189A19EBE231E118055EA /* Pods-Test-Guid-MindboxNotificationServiceExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40F0FAE6706CC4FE749D458ACE47979A /* Pods-Test-Guid-MindboxNotificationServiceExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65B126B420D189A19EBE231E118055EA /* Pods-Test-Guid-MindboxNotificationServiceExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D62145E79B075B13B8AC8165C653D30F /* Pods-Test-Guid-MindboxNotificationServiceExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67A20DA0EB65CA380E8A79752420118F /* CouponRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9501D906CAC52A6AF4CBB8C38BC1E643 /* CouponRequest.swift */; };
 		6AEBDAD8EA732DBEF62A658ED2988DF8 /* DiscountTypeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DE7B34ADD870C66270B3306707B5C2 /* DiscountTypeRequest.swift */; };
 		6E39FA9C6E4628A3C8A117B8768532F6 /* CatalogProductListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA163A577BCC320BCC29BC7B155F51 /* CatalogProductListRequest.swift */; };
 		6EA622F155881004995BBB04713D624D /* DeviceModelHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E228296E4A1A1DA30D6EFD8386E9E01 /* DeviceModelHelper.swift */; };
-		6F25CA194D8C366CADE684471FC1E717 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		6FA941AB1EAA58CCFB4110FFA8EBB714 /* DeliveryOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEF743CCAD07FA9BC5CC43F783D985F /* DeliveryOperation.swift */; };
 		6FE2EACE544D965560561F6635DA6F16 /* IDFVFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0831D5F00517AE20E16A1B7DD451D1A7 /* IDFVFetcher.swift */; };
 		7132E9700204D020CA0BF44208AC91DA /* CDEvent+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC45523296D41C7C8D06F78133D88B10 /* CDEvent+CoreDataProperties.swift */; };
 		7214F3074ABF00EC38E1F50DDDA27DCB /* AreaRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58336204679DB311AFA74B94746F2F5C /* AreaRequest.swift */; };
 		747DE06991A58C3B77F5FCBE9DD13DD4 /* URLValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C07344E5859B8568E65B02136A17B9C /* URLValidator.swift */; };
-		76AC34EC8AD81B8F49C7C098594CEBDA /* Pods-Test-Guid-MindboxNotificationContentExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A26715FC26F260E285B1ADEB5A46F14C /* Pods-Test-Guid-MindboxNotificationContentExtension-dummy.m */; };
 		77A62A5BF2F17EC28EE6A1ACCD2CE022 /* IDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE85E1B5CA6FD3B7E8A2B80B984228A0 /* IDS.swift */; };
 		7A048D5FDC674C2D523A2CA340D140D6 /* HTTPTypealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415BFEC3A0FDA4E8ED5E559E014654AA /* HTTPTypealiases.swift */; };
 		7A37099F6D9A397AAB35FE560145DBE5 /* EventWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61815318102F1C831516DDB5B808ECF8 /* EventWrapper.swift */; };
-		7AF2A06CB258642227DACD480CAC4533 /* Pods-Test-Guid-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DAE27E81BC08A856325423F99BC1857 /* Pods-Test-Guid-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AF2A06CB258642227DACD480CAC4533 /* Pods-Test-Guid-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32D839931A1BA85F411A736D2FFDF247 /* Pods-Test-Guid-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C27E56FC1C53D33C8FF0FE086C1E95A /* ErrorKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB73B06DE5C440B5352B083E3D3DEE0 /* ErrorKey.swift */; };
 		7C2AFF8B66FE92EF0ABDA693FE4CF44A /* CoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36001C60FC8C07C4F3DAF568B2B3A904 /* CoreController.swift */; };
 		7FBB98497F252D2A4454FD48E8647326 /* CustomFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55505D99ED8CDD0C1B4554666F492DF /* CustomFields.swift */; };
@@ -88,6 +85,7 @@
 		AF2C0AD3B0868DAC8C65B36517CF3AC0 /* MBEventRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BE4132B6A0DB203B9814421EF8C8E8 /* MBEventRepository.swift */; };
 		B1064B998D999EE273F886A7C282E371 /* Mindbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADE4F46145FB07A9B4A1ACCE7A982D0B /* Mindbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1525E60E804E307C0A8F583760357E4 /* MBDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC45986020A01ACD4B2D66B24087C33 /* MBDate.swift */; };
+		B46D5F1794070B30CCFB75FE0477626B /* Pods-Test-Guid-MindBoxNotificationContent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E21CF9AE3A82E7507AE7AE8007E38F4 /* Pods-Test-Guid-MindBoxNotificationContent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6E5F230DEB85B4E0B19FABA3E4D7E5F /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B19DC4BA4885A2849B0C8BCC1141CDF /* ErrorModel.swift */; };
 		B82D322142B7FD0F93F7441DD490658D /* PersistenceStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866E1E3078E2FBEFB1F2C1E4CC49E2A5 /* PersistenceStorage.swift */; };
 		B8A0E43396B45DD45EB3280A0F2B23C1 /* URLRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A04C4E9EB9E5BE09E367C6ADBC28E6 /* URLRequestBuilder.swift */; };
@@ -99,8 +97,10 @@
 		C4EDEC0907681FDFC773295B18F40DD6 /* MBConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34B96CBB761A7788739659C76F83C33 /* MBConfiguration.swift */; };
 		C655F13C597382F6923BAEC87BE70D9C /* IDFAFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B10E4C2A86A884BDD540AADC836834E /* IDFAFetcher.swift */; };
 		C8E599A1E6E9848EFB27EE39C850A35F /* ClickNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5FCC1A8302D1D075C48F92F304170C /* ClickNotificationManager.swift */; };
+		C900E671A976AF3449644335A4F48233 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C99EB66CDC59869EEB4ED1C546B73645 /* MindboxDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CA603FD3E2B5A6FF6DBF1609ABBEED /* MindboxDelegate.swift */; };
 		CA0B50F0FC8FBCDCD4C00A2B73BDBB97 /* NotificationsPayloads.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7CEE688F3E772BB7E6575B37623E04 /* NotificationsPayloads.swift */; };
+		CA786102D18F6108358F59BC25DC6F16 /* Pods-Test-Guid-MindBoxNotificationContent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9241F9723BCBF039F46D854B902C3FD /* Pods-Test-Guid-MindBoxNotificationContent-dummy.m */; };
 		CD631837B3DF59253827B3549D4E3916 /* CustomEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0A23C7B0D2FD3B5FA7AB50AB187AD7 /* CustomEvent.swift */; };
 		CFB7B3396A082E75081FE5D29C08B382 /* DeliveredNotificationManagerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B27654B2FA87FECD3721D3A6E823E02 /* DeliveredNotificationManagerError.swift */; };
 		D059A7DDB706887921117186F888CAB8 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CE1C8A6D59C18A38DFC3E09CF63FE9 /* Event.swift */; };
@@ -113,7 +113,7 @@
 		DB2A2272D2F64A7C53520657CD1F6081 /* String+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA02D75F9820664697A05F637569732 /* String+Regex.swift */; };
 		DD0705CD4DE4F8151C98BAA80594DC11 /* ProductGroupRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC9123F8DB74ACD8269DDBE2FB89BF0 /* ProductGroupRequest.swift */; };
 		DEDED68DF914B81DC48CD1B2FB397499 /* SubViewProductRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56AC52F9667D728310F43D8952B7481 /* SubViewProductRequest.swift */; };
-		E36B83235FC2C528F797533927D2F5F8 /* Pods-Test-Guid-MindboxNotificationServiceExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACE98D269489416A2CB6C16F2B727DE /* Pods-Test-Guid-MindboxNotificationServiceExtension-dummy.m */; };
+		E36B83235FC2C528F797533927D2F5F8 /* Pods-Test-Guid-MindboxNotificationServiceExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8688138FC9123AF9BBEE0051FD6F786C /* Pods-Test-Guid-MindboxNotificationServiceExtension-dummy.m */; };
 		E883507FC0641EAEECE8A18807FC7847 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A481EF9FF325CCECEE5D29F2285F9FF6 /* LogLevel.swift */; };
 		EAC935A465DC2BA73F1CB9E1F4484110 /* ViewProductRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906DFE4049D078F420C91B4F6F622032 /* ViewProductRequest.swift */; };
 		EB7302D38B5661C5609594B163BC2B85 /* MBPersistenceStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC9D1326844FF553F12E7DF9028CA2E /* MBPersistenceStorage.swift */; };
@@ -125,7 +125,7 @@
 		FD17854350CCEC2311ED601DCDC139FE /* Mindbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EABEAE2F7F21C35A1CC49AEE9C3D96 /* Mindbox.swift */; };
 		FE1727027E4E71E095A0D017C8321B54 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD45EEC948EB8A820AA87DBEF883900 /* SwiftyJSON.swift */; };
 		FE9F864B85374CAA104B2ABC8E3EBC80 /* OperationBodyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97A8194BCEC100083A3120B888E6F90 /* OperationBodyRequest.swift */; };
-		FFDDB8375CB5A7F536E0AAA1F744122C /* Pods-Test-Guid-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9815206E774DB518C0732CF5D13D9A7F /* Pods-Test-Guid-dummy.m */; };
+		FFDDB8375CB5A7F536E0AAA1F744122C /* Pods-Test-Guid-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF5CFF68DED5D101141D875A95C9199 /* Pods-Test-Guid-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -143,7 +143,7 @@
 			remoteGlobalIDString = F09FD53C0D7355712413F61F1C377646;
 			remoteInfo = Mindbox;
 		};
-		E6662C54183DC47C8B6BF2CEA6C7CF3C /* PBXContainerItemProxy */ = {
+		925ACDB107625C976E79108DEF9E744C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -153,60 +153,58 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00FA400FAE6DCCE126A88BC03FF3C37E /* Pods-Test-Guid-MindboxNotificationServiceExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test-Guid-MindboxNotificationServiceExtension-acknowledgements.plist"; sourceTree = "<group>"; };
 		01608A174B69A26B483AA36FE877AA3A /* SegmentationRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentationRequest.swift; path = Mindbox/Model/Request/SegmentationRequest.swift; sourceTree = "<group>"; };
 		01A5BDA3F995DF19BDA7DCA8E5B680DD /* LogManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogManager.swift; path = Mindbox/Utilities/Logger/LogManager.swift; sourceTree = "<group>"; };
 		028A6794A7E8068E542F22C4A7D95D65 /* CustomerRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomerRequest.swift; path = Mindbox/Model/Request/CustomerRequest.swift; sourceTree = "<group>"; };
+		02CDCAB3339AD8B946D72FE1813EEFF0 /* Pods-Test-Guid-MindboxNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test-Guid-MindboxNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
 		058B53AA093E40060169B9A7A7317BAF /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Mindbox/Utilities/Logger/Logger.swift; sourceTree = "<group>"; };
 		0831D5F00517AE20E16A1B7DD451D1A7 /* IDFVFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IDFVFetcher.swift; path = Mindbox/Utilities/IDFetcher/IDFVFetcher.swift; sourceTree = "<group>"; };
+		089D6695FB3D9D2ABE33F5635D21AEFD /* Pods-Test-Guid-MindboxNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test-Guid-MindboxNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		08C6FA418940FAE831BAE4030D94F449 /* EventRoute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventRoute.swift; path = Mindbox/NetworkRepository/Event/EventRoute.swift; sourceTree = "<group>"; };
 		0A0920CCA91D7DD77B3347048D4DC7A3 /* BaseResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseResponse.swift; path = Mindbox/Network/Types/Responses/BaseResponse.swift; sourceTree = "<group>"; };
-		0ACE98D269489416A2CB6C16F2B727DE /* Pods-Test-Guid-MindboxNotificationServiceExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Test-Guid-MindboxNotificationServiceExtension-dummy.m"; sourceTree = "<group>"; };
 		0CCDE157B73B8BE6E99AC6F780A22326 /* OperationBodyRequestType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OperationBodyRequestType.swift; path = Mindbox/Model/OperationBodyRequestType.swift; sourceTree = "<group>"; };
-		0DAE27E81BC08A856325423F99BC1857 /* Pods-Test-Guid-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Test-Guid-umbrella.h"; sourceTree = "<group>"; };
 		10075B701156820B921D61241CB079C1 /* Pods_Test_Guid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Test_Guid.framework; path = "Pods-Test-Guid.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		104B3F2676B708017DAD6E238FFA9C74 /* Pods-Test-Guid.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Test-Guid.modulemap"; sourceTree = "<group>"; };
-		126EDCD19B4ACF91B2F9C6BE06C73A13 /* Pods-Test-Guid-MindboxNotificationContentExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Test-Guid-MindboxNotificationContentExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1329961A37DEE5E0F7DC7DE330EB6509 /* CDEvent+CoreDataClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CDEvent+CoreDataClass.swift"; path = "Mindbox/Database/Entities/CDEvent+CoreDataClass.swift"; sourceTree = "<group>"; };
-		179A3EBB79A7E0C2EE96473D98EDA08E /* Pods-Test-Guid-MindboxNotificationContentExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test-Guid-MindboxNotificationContentExtension-acknowledgements.plist"; sourceTree = "<group>"; };
 		1CEECE3AE68F157E81C447211199ACB3 /* MBNetworkFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBNetworkFetcher.swift; path = Mindbox/Network/MBNetworkFetcher.swift; sourceTree = "<group>"; };
+		22194D624EDE5DA8592AA52D071FA267 /* Pods-Test-Guid-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test-Guid-Info.plist"; sourceTree = "<group>"; };
 		2257F6032DCFF9AE0CF40D19D7B38A83 /* MobileApplicationInfoUpdated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MobileApplicationInfoUpdated.swift; path = Mindbox/Model/Bodies/MobileApplicationInfoUpdated.swift; sourceTree = "<group>"; };
+		229ADF5CC3764135935E43737A28ECEA /* Pods-Test-Guid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test-Guid.release.xcconfig"; sourceTree = "<group>"; };
 		2592CD1577FC6A5E9C59044F610E1E55 /* DependencyContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DependencyContainer.swift; path = Mindbox/DI/DependencyContainer.swift; sourceTree = "<group>"; };
 		265BA704BEF485596F8AD1D6AD1C7C8B /* NetworkFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkFetcher.swift; path = Mindbox/Network/Abstract/NetworkFetcher.swift; sourceTree = "<group>"; };
 		27974CB3C557141D54BF8A06E1495348 /* Pods_Test_Guid_MindboxNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Test_Guid_MindboxNotificationServiceExtension.framework; path = "Pods-Test-Guid-MindboxNotificationServiceExtension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29F561C091A458D0F5CE4F4FE91C5BE4 /* GuaranteedDeliveryManager+State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "GuaranteedDeliveryManager+State.swift"; path = "Mindbox/GuaranteedDeliveryManager/GuaranteedDeliveryManager+State.swift"; sourceTree = "<group>"; };
-		2D70409FAF45802480560E520376116C /* Pods-Test-Guid-MindboxNotificationServiceExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Test-Guid-MindboxNotificationServiceExtension.modulemap"; sourceTree = "<group>"; };
 		2E88EAFB91D402199505E79FC1449ECC /* TimerManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimerManager.swift; path = Mindbox/CoreController/TimerManager.swift; sourceTree = "<group>"; };
-		30AD685E70EB75B0F68C05A4174A046E /* Pods-Test-Guid-MindboxNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test-Guid-MindboxNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
 		319AF90455FBF2ACBF29CC7E52F47281 /* RequestedPromotionRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestedPromotionRequest.swift; path = Mindbox/Model/Request/RequestedPromotionRequest.swift; sourceTree = "<group>"; };
 		31CE1C8A6D59C18A38DFC3E09CF63FE9 /* Event.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Event.swift; path = Mindbox/Model/Event.swift; sourceTree = "<group>"; };
+		32D839931A1BA85F411A736D2FFDF247 /* Pods-Test-Guid-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Test-Guid-umbrella.h"; sourceTree = "<group>"; };
 		3364BAB7C5EABA37949FDF1282044EA5 /* NSManagedObjectContext+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSManagedObjectContext+.swift"; path = "Mindbox/Database/Extensions/NSManagedObjectContext+.swift"; sourceTree = "<group>"; };
 		358893FC9181FD49DDB878E5B82DE844 /* MBDatabase.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = MBDatabase.xcdatamodel; sourceTree = "<group>"; };
 		36001C60FC8C07C4F3DAF568B2B3A904 /* CoreController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreController.swift; path = Mindbox/CoreController/CoreController.swift; sourceTree = "<group>"; };
 		37EABEAE2F7F21C35A1CC49AEE9C3D96 /* Mindbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mindbox.swift; path = Mindbox/Mindbox.swift; sourceTree = "<group>"; };
 		383F2F75078C1FF1247FF43F8C33154B /* DiscountCardRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiscountCardRequest.swift; path = Mindbox/Model/Request/DiscountCardRequest.swift; sourceTree = "<group>"; };
+		389B619A1A28937A8DF98DA953E2F655 /* Pods-Test-Guid-MindBoxNotificationContent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Test-Guid-MindBoxNotificationContent.modulemap"; sourceTree = "<group>"; };
 		3AD45EEC948EB8A820AA87DBEF883900 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Mindbox/Model/Common/SwiftyJSON.swift; sourceTree = "<group>"; };
+		3D580F3AC50B0BCDA633465F58EEAC2A /* Pods-Test-Guid.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Test-Guid.modulemap"; sourceTree = "<group>"; };
+		3E21CF9AE3A82E7507AE7AE8007E38F4 /* Pods-Test-Guid-MindBoxNotificationContent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Test-Guid-MindBoxNotificationContent-umbrella.h"; sourceTree = "<group>"; };
 		40CD0646C8D0E99C4D257EB255A4799F /* BodyDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BodyDecoder.swift; path = "Mindbox/Utilities/Body+/BodyDecoder.swift"; sourceTree = "<group>"; };
-		40F0FAE6706CC4FE749D458ACE47979A /* Pods-Test-Guid-MindboxNotificationServiceExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Test-Guid-MindboxNotificationServiceExtension-umbrella.h"; sourceTree = "<group>"; };
 		415BFEC3A0FDA4E8ED5E559E014654AA /* HTTPTypealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPTypealiases.swift; path = Mindbox/Network/Types/HTTPTypealiases.swift; sourceTree = "<group>"; };
 		41A04C4E9EB9E5BE09E367C6ADBC28E6 /* URLRequestBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLRequestBuilder.swift; path = Mindbox/Network/Helpers/URLRequestBuilder.swift; sourceTree = "<group>"; };
-		4307117235406651392CC7198720E1EE /* Pods-Test-Guid-MindboxNotificationContentExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test-Guid-MindboxNotificationContentExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		41FF566304FB86AB3F37EC50A83F532A /* Pods-Test-Guid-MindBoxNotificationContent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test-Guid-MindBoxNotificationContent.release.xcconfig"; sourceTree = "<group>"; };
 		433361AC045CE6F356C610C058A797D1 /* Channel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Channel.swift; path = Mindbox/Model/Request/Channel.swift; sourceTree = "<group>"; };
-		436F2372C47F7465FBD9775732D3B84F /* Pods-Test-Guid-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test-Guid-Info.plist"; sourceTree = "<group>"; };
-		4E7E2ADA9952C28EA9ED572F6720FC03 /* Pods-Test-Guid-MindboxNotificationContentExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test-Guid-MindboxNotificationContentExtension.release.xcconfig"; sourceTree = "<group>"; };
 		5441B5C7112677A612BBEB5E6DD4E7EC /* EventRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventRepository.swift; path = Mindbox/NetworkRepository/Event/EventRepository.swift; sourceTree = "<group>"; };
 		58336204679DB311AFA74B94746F2F5C /* AreaRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AreaRequest.swift; path = Mindbox/Model/Request/AreaRequest.swift; sourceTree = "<group>"; };
-		5A17E6FEA0E02E05C6E7CE25577565FC /* Pods-Test-Guid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test-Guid.release.xcconfig"; sourceTree = "<group>"; };
 		5AD629A6A8DDFAC2A1BF7D317BF5A507 /* MBDatabaseError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBDatabaseError.swift; path = Mindbox/Database/MBDatabaseError.swift; sourceTree = "<group>"; };
 		5C07344E5859B8568E65B02136A17B9C /* URLValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLValidator.swift; path = Mindbox/Validators/URLValidator.swift; sourceTree = "<group>"; };
+		5C377908371A21F4CDA69C126F29DE92 /* Pods-Test-Guid-MindBoxNotificationContent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test-Guid-MindBoxNotificationContent-Info.plist"; sourceTree = "<group>"; };
+		5DF5CFF68DED5D101141D875A95C9199 /* Pods-Test-Guid-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Test-Guid-dummy.m"; sourceTree = "<group>"; };
 		5F0382DFC20B3463E7D533DE53965F04 /* MindboxSceneDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MindboxSceneDelegate.swift; path = Mindbox/MindboxSceneDelegate.swift; sourceTree = "<group>"; };
-		5FCF4A0966B17E9B58B351AF1A0BC8AF /* Pods_Test_Guid_MindboxNotificationContentExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Test_Guid_MindboxNotificationContentExtension.framework; path = "Pods-Test-Guid-MindboxNotificationContentExtension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61815318102F1C831516DDB5B808ECF8 /* EventWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventWrapper.swift; path = Mindbox/NetworkRepository/Event/EventWrapper.swift; sourceTree = "<group>"; };
-		63442E3F05E877D84BAF7F4A26EF4BB1 /* Pods-Test-Guid-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Test-Guid-frameworks.sh"; sourceTree = "<group>"; };
 		65A13ED30808CF43620273A594EB3233 /* Mindbox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Mindbox-Info.plist"; sourceTree = "<group>"; };
+		66282E574A9A9585060545F608376E80 /* Pods-Test-Guid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test-Guid.debug.xcconfig"; sourceTree = "<group>"; };
 		66BB0874E6421069A7F055CB853F3247 /* Mindbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Mindbox.framework; path = Mindbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6733A1EBCD95845340AEE301F8ECC770 /* UNAuthorizationStatusProviding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UNAuthorizationStatusProviding.swift; path = Mindbox/Utilities/UNAuthorizationStatusProviding/UNAuthorizationStatusProviding.swift; sourceTree = "<group>"; };
 		68B50E98CCB307119E28C221A131F2FE /* UDIDValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UDIDValidator.swift; path = Mindbox/Validators/UDIDValidator.swift; sourceTree = "<group>"; };
-		68D7E642844B7C3CAEAD0D40AE45049D /* Pods-Test-Guid-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Test-Guid-acknowledgements.markdown"; sourceTree = "<group>"; };
 		69AD6C29E34A13ABE0E2467DBBA51652 /* BackgroundTaskManagerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BackgroundTaskManagerType.swift; path = Mindbox/GuaranteedDeliveryManager/Background/BackgroundTaskManagerType.swift; sourceTree = "<group>"; };
 		6B19785025BFCAC54632F8DA846680F5 /* NotificationDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationDecoder.swift; path = Mindbox/Utilities/NotificationDecoder.swift; sourceTree = "<group>"; };
 		6BB8DB17B09811167F8DFE95CAEFBE04 /* MBPersistentContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBPersistentContainer.swift; path = Mindbox/Database/MBPersistentContainer.swift; sourceTree = "<group>"; };
@@ -220,41 +218,38 @@
 		77C0E6FA9E24D2E6422C4290CCF727A0 /* UIBackgroundTaskManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIBackgroundTaskManager.swift; path = Mindbox/GuaranteedDeliveryManager/Background/UIBackgroundTaskManager.swift; sourceTree = "<group>"; };
 		79307237D63CFC8897B76E2C650ED5EC /* TrackClick.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackClick.swift; path = Mindbox/Model/Bodies/TrackClick.swift; sourceTree = "<group>"; };
 		7A327F75C1543EC576AD1AB74AF310BB /* Mindbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Mindbox.modulemap; sourceTree = "<group>"; };
-		7A8DE56CD5B7FD48F404F156AC3C750E /* Pods-Test-Guid-MindboxNotificationServiceExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Test-Guid-MindboxNotificationServiceExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7B19DC4BA4885A2849B0C8BCC1141CDF /* ErrorModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorModel.swift; path = Mindbox/Network/Types/ErrorModel.swift; sourceTree = "<group>"; };
-		7B3B8AEAD56737E6B05B0AA7641BACCF /* Pods-Test-Guid-MindboxNotificationServiceExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test-Guid-MindboxNotificationServiceExtension-Info.plist"; sourceTree = "<group>"; };
 		7C5BDAD736CE4704488C365617A7C0BD /* GuaranteedDeliveryManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GuaranteedDeliveryManager.swift; path = Mindbox/GuaranteedDeliveryManager/GuaranteedDeliveryManager.swift; sourceTree = "<group>"; };
 		7E99DBB52E55C3268271C2E8634EFB09 /* LogWriter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogWriter.swift; path = Mindbox/Utilities/Logger/LogWriter.swift; sourceTree = "<group>"; };
 		81108BA41F56340A19BC21472BCBF20B /* Mindbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mindbox-prefix.pch"; sourceTree = "<group>"; };
-		83C6830E61D7C689CE9D1B328B865FAB /* Pods-Test-Guid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test-Guid.debug.xcconfig"; sourceTree = "<group>"; };
 		866E1E3078E2FBEFB1F2C1E4CC49E2A5 /* PersistenceStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PersistenceStorage.swift; path = Mindbox/PersistenceStorage/PersistenceStorage.swift; sourceTree = "<group>"; };
+		8688138FC9123AF9BBEE0051FD6F786C /* Pods-Test-Guid-MindboxNotificationServiceExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Test-Guid-MindboxNotificationServiceExtension-dummy.m"; sourceTree = "<group>"; };
 		89CE830A3D63A31DF6927E57006D025B /* TrackVisitManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackVisitManager.swift; path = Mindbox/TrackVisitManager/TrackVisitManager.swift; sourceTree = "<group>"; };
 		8B27654B2FA87FECD3721D3A6E823E02 /* DeliveredNotificationManagerError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeliveredNotificationManagerError.swift; path = Mindbox/DeliveredNotificationManager/DeliveredNotificationManagerError.swift; sourceTree = "<group>"; };
 		8EBB404D45EBF30D89CF648F3836A5A7 /* PromoCodeRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PromoCodeRequest.swift; path = Mindbox/Model/Request/PromoCodeRequest.swift; sourceTree = "<group>"; };
 		906DFE4049D078F420C91B4F6F622032 /* ViewProductRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewProductRequest.swift; path = Mindbox/Model/Request/ViewProductRequest.swift; sourceTree = "<group>"; };
+		9085D93A807ED53BB1BF0A1F2409C95D /* Pods-Test-Guid-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Test-Guid-acknowledgements.markdown"; sourceTree = "<group>"; };
 		909F41728F04FCEAE3E2F067FE299F8B /* MindboxErrors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MindboxErrors.swift; path = Mindbox/Utilities/MindboxErrors.swift; sourceTree = "<group>"; };
 		917569E8BEE4CAEA4B9F4EC7EDFBF92A /* DatabaseLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatabaseLoader.swift; path = Mindbox/Database/DatabaseLoader.swift; sourceTree = "<group>"; };
+		92F32A3424104AC437B7DBB636CC04D1 /* Pods-Test-Guid-MindboxNotificationServiceExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Test-Guid-MindboxNotificationServiceExtension.modulemap"; sourceTree = "<group>"; };
 		9501D906CAC52A6AF4CBB8C38BC1E643 /* CouponRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CouponRequest.swift; path = Mindbox/Model/Request/CouponRequest.swift; sourceTree = "<group>"; };
-		9815206E774DB518C0732CF5D13D9A7F /* Pods-Test-Guid-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Test-Guid-dummy.m"; sourceTree = "<group>"; };
 		98A6A6256534BAE715697FB468EFCB5D /* Mindbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mindbox-dummy.m"; sourceTree = "<group>"; };
 		9B10E4C2A86A884BDD540AADC836834E /* IDFAFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IDFAFetcher.swift; path = Mindbox/Utilities/IDFetcher/IDFAFetcher.swift; sourceTree = "<group>"; };
 		9BEF743CCAD07FA9BC5CC43F783D985F /* DeliveryOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeliveryOperation.swift; path = Mindbox/GuaranteedDeliveryManager/DeliveryOperation.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E7087ED488B7048E38C952C0D4BB1F2 /* Pods-Test-Guid-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Test-Guid-frameworks.sh"; sourceTree = "<group>"; };
 		9E9A14578652E522CFA327C628651F84 /* MobileApplicationInstalled.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MobileApplicationInstalled.swift; path = Mindbox/Model/Bodies/MobileApplicationInstalled.swift; sourceTree = "<group>"; };
 		9F2478706C3BED73A3221232B31CDB40 /* ItemRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ItemRequest.swift; path = Mindbox/Model/Request/ItemRequest.swift; sourceTree = "<group>"; };
 		A0ECB66DE893D9FD4B8ED5B6919B0B0E /* CodableDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodableDictionary.swift; path = Mindbox/Model/Common/CodableDictionary.swift; sourceTree = "<group>"; };
 		A243AD3282E31D528701952CC113A355 /* ProductRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductRequest.swift; path = Mindbox/Model/Request/ProductRequest.swift; sourceTree = "<group>"; };
-		A26715FC26F260E285B1ADEB5A46F14C /* Pods-Test-Guid-MindboxNotificationContentExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Test-Guid-MindboxNotificationContentExtension-dummy.m"; sourceTree = "<group>"; };
 		A28CF8401463641AA5FDC72FC12FF856 /* Sex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sex.swift; path = Mindbox/Model/Common/Sex.swift; sourceTree = "<group>"; };
 		A481EF9FF325CCECEE5D29F2285F9FF6 /* LogLevel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogLevel.swift; path = Mindbox/Utilities/Logger/LogLevel.swift; sourceTree = "<group>"; };
 		A5051C2C85F2FED50369677CB7E257BD /* LineRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineRequest.swift; path = Mindbox/Model/Request/LineRequest.swift; sourceTree = "<group>"; };
+		A5556297C8CCDDAD062BE6495C30B221 /* Pods-Test-Guid-MindBoxNotificationContent-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Test-Guid-MindBoxNotificationContent-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A93F8DBB8A19FCEAC4FD3B4C96041CDB /* HTTPURLResponseStatusCodeValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPURLResponseStatusCodeValidator.swift; path = Mindbox/Network/Validators/HTTPURLResponseStatusCodeValidator.swift; sourceTree = "<group>"; };
 		AA7CEE688F3E772BB7E6575B37623E04 /* NotificationsPayloads.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationsPayloads.swift; path = Mindbox/Model/NotificationPayload/NotificationsPayloads.swift; sourceTree = "<group>"; };
 		ADE4F46145FB07A9B4A1ACCE7A982D0B /* Mindbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mindbox-umbrella.h"; sourceTree = "<group>"; };
 		AFE2E119343941ACFF7BD45DCF4E485C /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Mindbox/SessionManager/SessionManager.swift; sourceTree = "<group>"; };
-		B4940CA8960E4D36E078F6D4DA65B8E6 /* Pods-Test-Guid-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test-Guid-acknowledgements.plist"; sourceTree = "<group>"; };
-		B6BA4C51C67548BF1719125876152143 /* Pods-Test-Guid-MindboxNotificationContentExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test-Guid-MindboxNotificationContentExtension-Info.plist"; sourceTree = "<group>"; };
-		B715499A482FBC94EC2AFFAA1904F3D6 /* Pods-Test-Guid-MindboxNotificationContentExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Test-Guid-MindboxNotificationContentExtension.modulemap"; sourceTree = "<group>"; };
 		BCFDDDE5BF78C12272D1383EF760AC7A /* MBUtilitiesFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBUtilitiesFetcher.swift; path = Mindbox/Utilities/UtilitiesFetcher/MBUtilitiesFetcher.swift; sourceTree = "<group>"; };
 		BDEF6EE2F9BFEB525F6AA5AFAFBECFF4 /* ProductListRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductListRequest.swift; path = Mindbox/Model/Request/ProductListRequest.swift; sourceTree = "<group>"; };
 		C0DE7B34ADD870C66270B3306707B5C2 /* DiscountTypeRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiscountTypeRequest.swift; path = Mindbox/Model/Request/DiscountTypeRequest.swift; sourceTree = "<group>"; };
@@ -266,7 +261,7 @@
 		CEC9123F8DB74ACD8269DDBE2FB89BF0 /* ProductGroupRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductGroupRequest.swift; path = Mindbox/Model/Request/ProductGroupRequest.swift; sourceTree = "<group>"; };
 		CEDA163A577BCC320BCC29BC7B155F51 /* CatalogProductListRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CatalogProductListRequest.swift; path = Mindbox/Model/Request/CatalogProductListRequest.swift; sourceTree = "<group>"; };
 		CFAC946A5B453704B3EB2F9B7D0A8A0D /* MindboxAppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MindboxAppDelegate.swift; path = Mindbox/MindboxAppDelegate.swift; sourceTree = "<group>"; };
-		D3CD608D298B42FEC1991D1169D4CB8F /* Pods-Test-Guid-MindboxNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test-Guid-MindboxNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		D62145E79B075B13B8AC8165C653D30F /* Pods-Test-Guid-MindboxNotificationServiceExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Test-Guid-MindboxNotificationServiceExtension-umbrella.h"; sourceTree = "<group>"; };
 		D8883B2961BD6C1D908E31A43E3F626E /* SubscriptionRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubscriptionRequest.swift; path = Mindbox/Model/Request/SubscriptionRequest.swift; sourceTree = "<group>"; };
 		D8EA2825F353851369A6442675DC964D /* DiscountRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiscountRequest.swift; path = Mindbox/Model/Request/DiscountRequest.swift; sourceTree = "<group>"; };
 		D97A8194BCEC100083A3120B888E6F90 /* OperationBodyRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OperationBodyRequest.swift; path = Mindbox/Model/OperationBodyRequest.swift; sourceTree = "<group>"; };
@@ -276,6 +271,7 @@
 		DFFED6FCAFED4D01F01423E0FF0C014C /* DeliveredNotificationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeliveredNotificationManager.swift; path = Mindbox/DeliveredNotificationManager/DeliveredNotificationManager.swift; sourceTree = "<group>"; };
 		E0FBA09D30F128059B20F0EC9D6CF33F /* OrderRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrderRequest.swift; path = Mindbox/Model/Request/OrderRequest.swift; sourceTree = "<group>"; };
 		E10F0D375CD25486BDDB25F1142E1DE3 /* ViewProductCategoryRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewProductCategoryRequest.swift; path = Mindbox/Model/Request/ViewProductCategoryRequest.swift; sourceTree = "<group>"; };
+		E14A5E16EEBA06D0DAE5DC5CD94E6EBC /* Pods-Test-Guid-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test-Guid-acknowledgements.plist"; sourceTree = "<group>"; };
 		E2A206593F89699281430CFFCE078B7F /* PoolRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PoolRequest.swift; path = Mindbox/Model/Request/PoolRequest.swift; sourceTree = "<group>"; };
 		E374C3C46C0225A53DB6A5F9397D19B2 /* LogCategory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogCategory.swift; path = Mindbox/Utilities/Logger/LogCategory.swift; sourceTree = "<group>"; };
 		E3CA603FD3E2B5A6FF6DBF1609ABBEED /* MindboxDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MindboxDelegate.swift; path = Mindbox/MindboxDelegate.swift; sourceTree = "<group>"; };
@@ -284,17 +280,21 @@
 		E5ADAD9B9B530C15CB59D46382C15E7B /* UtilitiesFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UtilitiesFetcher.swift; path = Mindbox/Utilities/UtilitiesFetcher/UtilitiesFetcher.swift; sourceTree = "<group>"; };
 		E6BE4132B6A0DB203B9814421EF8C8E8 /* MBEventRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBEventRepository.swift; path = Mindbox/NetworkRepository/Event/MBEventRepository.swift; sourceTree = "<group>"; };
 		E8C0D105B32A6EC77C14413E5F526E4B /* PushDelivered.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushDelivered.swift; path = Mindbox/Model/Bodies/PushDelivered.swift; sourceTree = "<group>"; };
+		E9241F9723BCBF039F46D854B902C3FD /* Pods-Test-Guid-MindBoxNotificationContent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Test-Guid-MindBoxNotificationContent-dummy.m"; sourceTree = "<group>"; };
 		E97EB3A50974DD8828DD65D6356AE766 /* TrackVisit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackVisit.swift; path = Mindbox/Model/Bodies/TrackVisit.swift; sourceTree = "<group>"; };
+		EACE2438D84C629D2DA786530FF790E7 /* Pods-Test-Guid-MindBoxNotificationContent-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test-Guid-MindBoxNotificationContent-acknowledgements.plist"; sourceTree = "<group>"; };
 		EBC4A20A2F5A3EEA1CC44AB1CEB350F0 /* CustomerActionRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomerActionRequest.swift; path = Mindbox/Model/Request/CustomerActionRequest.swift; sourceTree = "<group>"; };
+		EEA3768E9BE9D3BF77A3A981780D7A93 /* Pods_Test_Guid_MindBoxNotificationContent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Test_Guid_MindBoxNotificationContent.framework; path = "Pods-Test-Guid-MindBoxNotificationContent.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF39EFC38BE61A37FF4139F0AE12BF9B /* Pods-Test-Guid-MindboxNotificationServiceExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Test-Guid-MindboxNotificationServiceExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EF6C2CE709769BC8BEC2A3D7E961F8F8 /* Mindbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mindbox.release.xcconfig; sourceTree = "<group>"; };
-		F19007B9871D8193D0C550139AFD4A95 /* Pods-Test-Guid-MindboxNotificationServiceExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test-Guid-MindboxNotificationServiceExtension-acknowledgements.plist"; sourceTree = "<group>"; };
 		F34B96CBB761A7788739659C76F83C33 /* MBConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBConfiguration.swift; path = Mindbox/MBConfiguration.swift; sourceTree = "<group>"; };
 		F3BCA58954ED836A67A5F31B53A4ED68 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Mindbox/Network/Types/HTTPMethod.swift; sourceTree = "<group>"; };
 		F5B1259400C3B28F3B0F6C7DC7DE675E /* UNAuthorizationStatusProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UNAuthorizationStatusProvider.swift; path = Mindbox/Utilities/UNAuthorizationStatusProviding/UNAuthorizationStatusProvider.swift; sourceTree = "<group>"; };
 		F6EA432ABF31EFFF45E18164D13F67F6 /* Mindbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mindbox.debug.xcconfig; sourceTree = "<group>"; };
+		F777BF5BE5F74E7A648962C83352E4A9 /* Pods-Test-Guid-MindBoxNotificationContent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test-Guid-MindBoxNotificationContent.debug.xcconfig"; sourceTree = "<group>"; };
 		F8E1536FA9EFC207028ADBF722709405 /* DependencyProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DependencyProvider.swift; path = Mindbox/DI/DependencyProvider.swift; sourceTree = "<group>"; };
-		F8FBC7B60DA8666B152CEF1263E9842C /* Pods-Test-Guid-MindboxNotificationContentExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Test-Guid-MindboxNotificationContentExtension-umbrella.h"; sourceTree = "<group>"; };
 		FAA02D75F9820664697A05F637569732 /* String+Regex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Regex.swift"; path = "Mindbox/Utilities/String+Regex.swift"; sourceTree = "<group>"; };
+		FB8E64146E881EBB5B6743B2C3260D96 /* Pods-Test-Guid-MindboxNotificationServiceExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test-Guid-MindboxNotificationServiceExtension-Info.plist"; sourceTree = "<group>"; };
 		FC22C8F08CC3416F83FF6DCA6B311ED0 /* BGTaskManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BGTaskManager.swift; path = Mindbox/GuaranteedDeliveryManager/Background/BGTaskManager.swift; sourceTree = "<group>"; };
 		FD3DD5DE7DF85C03AE89EA95DBA7A65B /* ProductCategoryRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductCategoryRequest.swift; path = Mindbox/Model/Request/ProductCategoryRequest.swift; sourceTree = "<group>"; };
 		FDC9D1326844FF553F12E7DF9028CA2E /* MBPersistenceStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBPersistenceStorage.swift; path = Mindbox/PersistenceStorage/MBPersistenceStorage.swift; sourceTree = "<group>"; };
@@ -325,33 +325,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC258ED19B66868C81F26587D4A51A2E /* Frameworks */ = {
+		D2A83790382FCF346112F9989DF9BD22 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F25CA194D8C366CADE684471FC1E717 /* Foundation.framework in Frameworks */,
+				C900E671A976AF3449644335A4F48233 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02E9ADB14DCE96DC45B92FB79EBEB4A2 /* Pods-Test-Guid-MindboxNotificationServiceExtension */ = {
-			isa = PBXGroup;
-			children = (
-				2D70409FAF45802480560E520376116C /* Pods-Test-Guid-MindboxNotificationServiceExtension.modulemap */,
-				7A8DE56CD5B7FD48F404F156AC3C750E /* Pods-Test-Guid-MindboxNotificationServiceExtension-acknowledgements.markdown */,
-				F19007B9871D8193D0C550139AFD4A95 /* Pods-Test-Guid-MindboxNotificationServiceExtension-acknowledgements.plist */,
-				0ACE98D269489416A2CB6C16F2B727DE /* Pods-Test-Guid-MindboxNotificationServiceExtension-dummy.m */,
-				7B3B8AEAD56737E6B05B0AA7641BACCF /* Pods-Test-Guid-MindboxNotificationServiceExtension-Info.plist */,
-				40F0FAE6706CC4FE749D458ACE47979A /* Pods-Test-Guid-MindboxNotificationServiceExtension-umbrella.h */,
-				D3CD608D298B42FEC1991D1169D4CB8F /* Pods-Test-Guid-MindboxNotificationServiceExtension.debug.xcconfig */,
-				30AD685E70EB75B0F68C05A4174A046E /* Pods-Test-Guid-MindboxNotificationServiceExtension.release.xcconfig */,
-			);
-			name = "Pods-Test-Guid-MindboxNotificationServiceExtension";
-			path = "Target Support Files/Pods-Test-Guid-MindboxNotificationServiceExtension";
-			sourceTree = "<group>";
-		};
 		16A53260625940C4F2651E7F57CB7234 /* Mindbox */ = {
 			isa = PBXGroup;
 			children = (
@@ -468,47 +452,30 @@
 			path = Mindbox;
 			sourceTree = "<group>";
 		};
-		1EE45D8F7CC2DA68C2025219F529CFAB /* Pods-Test-Guid-MindboxNotificationContentExtension */ = {
+		2E41F4CE81FE53A9014206B8DC5474C8 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B715499A482FBC94EC2AFFAA1904F3D6 /* Pods-Test-Guid-MindboxNotificationContentExtension.modulemap */,
-				126EDCD19B4ACF91B2F9C6BE06C73A13 /* Pods-Test-Guid-MindboxNotificationContentExtension-acknowledgements.markdown */,
-				179A3EBB79A7E0C2EE96473D98EDA08E /* Pods-Test-Guid-MindboxNotificationContentExtension-acknowledgements.plist */,
-				A26715FC26F260E285B1ADEB5A46F14C /* Pods-Test-Guid-MindboxNotificationContentExtension-dummy.m */,
-				B6BA4C51C67548BF1719125876152143 /* Pods-Test-Guid-MindboxNotificationContentExtension-Info.plist */,
-				F8FBC7B60DA8666B152CEF1263E9842C /* Pods-Test-Guid-MindboxNotificationContentExtension-umbrella.h */,
-				4307117235406651392CC7198720E1EE /* Pods-Test-Guid-MindboxNotificationContentExtension.debug.xcconfig */,
-				4E7E2ADA9952C28EA9ED572F6720FC03 /* Pods-Test-Guid-MindboxNotificationContentExtension.release.xcconfig */,
-			);
-			name = "Pods-Test-Guid-MindboxNotificationContentExtension";
-			path = "Target Support Files/Pods-Test-Guid-MindboxNotificationContentExtension";
-			sourceTree = "<group>";
-		};
-		2328FDB720C1E834AEF13938CFBBFD50 /* Pods-Test-Guid */ = {
-			isa = PBXGroup;
-			children = (
-				104B3F2676B708017DAD6E238FFA9C74 /* Pods-Test-Guid.modulemap */,
-				68D7E642844B7C3CAEAD0D40AE45049D /* Pods-Test-Guid-acknowledgements.markdown */,
-				B4940CA8960E4D36E078F6D4DA65B8E6 /* Pods-Test-Guid-acknowledgements.plist */,
-				9815206E774DB518C0732CF5D13D9A7F /* Pods-Test-Guid-dummy.m */,
-				63442E3F05E877D84BAF7F4A26EF4BB1 /* Pods-Test-Guid-frameworks.sh */,
-				436F2372C47F7465FBD9775732D3B84F /* Pods-Test-Guid-Info.plist */,
-				0DAE27E81BC08A856325423F99BC1857 /* Pods-Test-Guid-umbrella.h */,
-				83C6830E61D7C689CE9D1B328B865FAB /* Pods-Test-Guid.debug.xcconfig */,
-				5A17E6FEA0E02E05C6E7CE25577565FC /* Pods-Test-Guid.release.xcconfig */,
-			);
-			name = "Pods-Test-Guid";
-			path = "Target Support Files/Pods-Test-Guid";
-			sourceTree = "<group>";
-		};
-		289859DC26ABD81D24AEDB8C11D8EFFA /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2328FDB720C1E834AEF13938CFBBFD50 /* Pods-Test-Guid */,
-				1EE45D8F7CC2DA68C2025219F529CFAB /* Pods-Test-Guid-MindboxNotificationContentExtension */,
-				02E9ADB14DCE96DC45B92FB79EBEB4A2 /* Pods-Test-Guid-MindboxNotificationServiceExtension */,
+				EEFCAEBAE3180B0E5D39836EC456BEAA /* Pods-Test-Guid */,
+				38A5F842A3781B537E2A1FF62733B520 /* Pods-Test-Guid-MindBoxNotificationContent */,
+				D2C643A8540B94ACE081F770C0103BC9 /* Pods-Test-Guid-MindboxNotificationServiceExtension */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		38A5F842A3781B537E2A1FF62733B520 /* Pods-Test-Guid-MindBoxNotificationContent */ = {
+			isa = PBXGroup;
+			children = (
+				389B619A1A28937A8DF98DA953E2F655 /* Pods-Test-Guid-MindBoxNotificationContent.modulemap */,
+				A5556297C8CCDDAD062BE6495C30B221 /* Pods-Test-Guid-MindBoxNotificationContent-acknowledgements.markdown */,
+				EACE2438D84C629D2DA786530FF790E7 /* Pods-Test-Guid-MindBoxNotificationContent-acknowledgements.plist */,
+				E9241F9723BCBF039F46D854B902C3FD /* Pods-Test-Guid-MindBoxNotificationContent-dummy.m */,
+				5C377908371A21F4CDA69C126F29DE92 /* Pods-Test-Guid-MindBoxNotificationContent-Info.plist */,
+				3E21CF9AE3A82E7507AE7AE8007E38F4 /* Pods-Test-Guid-MindBoxNotificationContent-umbrella.h */,
+				F777BF5BE5F74E7A648962C83352E4A9 /* Pods-Test-Guid-MindBoxNotificationContent.debug.xcconfig */,
+				41FF566304FB86AB3F37EC50A83F532A /* Pods-Test-Guid-MindBoxNotificationContent.release.xcconfig */,
+			);
+			name = "Pods-Test-Guid-MindBoxNotificationContent";
+			path = "Target Support Files/Pods-Test-Guid-MindBoxNotificationContent";
 			sourceTree = "<group>";
 		};
 		4A82EB5B35D918E741CE9A87CBF94402 /* Pods */ = {
@@ -542,6 +509,17 @@
 			path = "../Target Support Files/Mindbox";
 			sourceTree = "<group>";
 		};
+		8FD91C2967B3ECE8965DFF82BED6A615 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66BB0874E6421069A7F055CB853F3247 /* Mindbox.framework */,
+				10075B701156820B921D61241CB079C1 /* Pods_Test_Guid.framework */,
+				EEA3768E9BE9D3BF77A3A981780D7A93 /* Pods_Test_Guid_MindBoxNotificationContent.framework */,
+				27974CB3C557141D54BF8A06E1495348 /* Pods_Test_Guid_MindboxNotificationServiceExtension.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		A8084BF55E90F81D627526654ABFB8AF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -550,25 +528,14 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		BB2B124EB87DBB16FB22216D9D544230 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				66BB0874E6421069A7F055CB853F3247 /* Mindbox.framework */,
-				10075B701156820B921D61241CB079C1 /* Pods_Test_Guid.framework */,
-				5FCF4A0966B17E9B58B351AF1A0BC8AF /* Pods_Test_Guid_MindboxNotificationContentExtension.framework */,
-				27974CB3C557141D54BF8A06E1495348 /* Pods_Test_Guid_MindboxNotificationServiceExtension.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				4A82EB5B35D918E741CE9A87CBF94402 /* Pods */,
-				BB2B124EB87DBB16FB22216D9D544230 /* Products */,
-				289859DC26ABD81D24AEDB8C11D8EFFA /* Targets Support Files */,
+				8FD91C2967B3ECE8965DFF82BED6A615 /* Products */,
+				2E41F4CE81FE53A9014206B8DC5474C8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -578,6 +545,39 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2C643A8540B94ACE081F770C0103BC9 /* Pods-Test-Guid-MindboxNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				92F32A3424104AC437B7DBB636CC04D1 /* Pods-Test-Guid-MindboxNotificationServiceExtension.modulemap */,
+				EF39EFC38BE61A37FF4139F0AE12BF9B /* Pods-Test-Guid-MindboxNotificationServiceExtension-acknowledgements.markdown */,
+				00FA400FAE6DCCE126A88BC03FF3C37E /* Pods-Test-Guid-MindboxNotificationServiceExtension-acknowledgements.plist */,
+				8688138FC9123AF9BBEE0051FD6F786C /* Pods-Test-Guid-MindboxNotificationServiceExtension-dummy.m */,
+				FB8E64146E881EBB5B6743B2C3260D96 /* Pods-Test-Guid-MindboxNotificationServiceExtension-Info.plist */,
+				D62145E79B075B13B8AC8165C653D30F /* Pods-Test-Guid-MindboxNotificationServiceExtension-umbrella.h */,
+				089D6695FB3D9D2ABE33F5635D21AEFD /* Pods-Test-Guid-MindboxNotificationServiceExtension.debug.xcconfig */,
+				02CDCAB3339AD8B946D72FE1813EEFF0 /* Pods-Test-Guid-MindboxNotificationServiceExtension.release.xcconfig */,
+			);
+			name = "Pods-Test-Guid-MindboxNotificationServiceExtension";
+			path = "Target Support Files/Pods-Test-Guid-MindboxNotificationServiceExtension";
+			sourceTree = "<group>";
+		};
+		EEFCAEBAE3180B0E5D39836EC456BEAA /* Pods-Test-Guid */ = {
+			isa = PBXGroup;
+			children = (
+				3D580F3AC50B0BCDA633465F58EEAC2A /* Pods-Test-Guid.modulemap */,
+				9085D93A807ED53BB1BF0A1F2409C95D /* Pods-Test-Guid-acknowledgements.markdown */,
+				E14A5E16EEBA06D0DAE5DC5CD94E6EBC /* Pods-Test-Guid-acknowledgements.plist */,
+				5DF5CFF68DED5D101141D875A95C9199 /* Pods-Test-Guid-dummy.m */,
+				9E7087ED488B7048E38C952C0D4BB1F2 /* Pods-Test-Guid-frameworks.sh */,
+				22194D624EDE5DA8592AA52D071FA267 /* Pods-Test-Guid-Info.plist */,
+				32D839931A1BA85F411A736D2FFDF247 /* Pods-Test-Guid-umbrella.h */,
+				66282E574A9A9585060545F608376E80 /* Pods-Test-Guid.debug.xcconfig */,
+				229ADF5CC3764135935E43737A28ECEA /* Pods-Test-Guid.release.xcconfig */,
+			);
+			name = "Pods-Test-Guid";
+			path = "Target Support Files/Pods-Test-Guid";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -599,11 +599,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD3A5B6788E89E3CDE9605DA87189A56 /* Headers */ = {
+		ED6C5FD77518FB077A0AD844D1B8ED93 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2ABAE91F640F6CB14DAAFDF8FF1C6B91 /* Pods-Test-Guid-MindboxNotificationContentExtension-umbrella.h in Headers */,
+				B46D5F1794070B30CCFB75FE0477626B /* Pods-Test-Guid-MindBoxNotificationContent-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,25 +618,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		127CFF838902F6609FF3A732D203B12C /* Pods-Test-Guid-MindboxNotificationContentExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 73EC874B673C713898D332216CCEE8AB /* Build configuration list for PBXNativeTarget "Pods-Test-Guid-MindboxNotificationContentExtension" */;
-			buildPhases = (
-				AD3A5B6788E89E3CDE9605DA87189A56 /* Headers */,
-				39A065402BA0DBDD0C0B953B44C1C57D /* Sources */,
-				CC258ED19B66868C81F26587D4A51A2E /* Frameworks */,
-				FE01F9F24F5C03E3F61DD0B636F7109C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4BE798D9BB0818E51146A330F24003AD /* PBXTargetDependency */,
-			);
-			name = "Pods-Test-Guid-MindboxNotificationContentExtension";
-			productName = "Pods-Test-Guid-MindboxNotificationContentExtension";
-			productReference = 5FCF4A0966B17E9B58B351AF1A0BC8AF /* Pods_Test_Guid_MindboxNotificationContentExtension.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		89607AE7E173875A5709C1C67D283751 /* Pods-Test-Guid-MindboxNotificationServiceExtension */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D530616789BDA38AF6EA16D18CC2DE54 /* Build configuration list for PBXNativeTarget "Pods-Test-Guid-MindboxNotificationServiceExtension" */;
@@ -654,6 +635,25 @@
 			name = "Pods-Test-Guid-MindboxNotificationServiceExtension";
 			productName = "Pods-Test-Guid-MindboxNotificationServiceExtension";
 			productReference = 27974CB3C557141D54BF8A06E1495348 /* Pods_Test_Guid_MindboxNotificationServiceExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		948633F8B773E2A59F6F7AB6D1A4D6A3 /* Pods-Test-Guid-MindBoxNotificationContent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1521DBD95E986703A9F3C37ED4A95E /* Build configuration list for PBXNativeTarget "Pods-Test-Guid-MindBoxNotificationContent" */;
+			buildPhases = (
+				ED6C5FD77518FB077A0AD844D1B8ED93 /* Headers */,
+				4245444A2A467997970BA217DB605B8F /* Sources */,
+				D2A83790382FCF346112F9989DF9BD22 /* Frameworks */,
+				7A0FBA6258E524BF165AE76108ECBEB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD7C887561CCB6DE14ECCAF55E044BB1 /* PBXTargetDependency */,
+			);
+			name = "Pods-Test-Guid-MindBoxNotificationContent";
+			productName = "Pods-Test-Guid-MindBoxNotificationContent";
+			productReference = EEA3768E9BE9D3BF77A3A981780D7A93 /* Pods_Test_Guid_MindBoxNotificationContent.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AF973AFBA3AD3A205DCE402B0D1CD75D /* Pods-Test-Guid */ = {
@@ -711,19 +711,26 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = BB2B124EB87DBB16FB22216D9D544230 /* Products */;
+			productRefGroup = 8FD91C2967B3ECE8965DFF82BED6A615 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				F09FD53C0D7355712413F61F1C377646 /* Mindbox */,
 				AF973AFBA3AD3A205DCE402B0D1CD75D /* Pods-Test-Guid */,
-				127CFF838902F6609FF3A732D203B12C /* Pods-Test-Guid-MindboxNotificationContentExtension */,
+				948633F8B773E2A59F6F7AB6D1A4D6A3 /* Pods-Test-Guid-MindBoxNotificationContent */,
 				89607AE7E173875A5709C1C67D283751 /* Pods-Test-Guid-MindboxNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7A0FBA6258E524BF165AE76108ECBEB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BCE67621E04F6B5ACA3336FF2576606E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -745,21 +752,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE01F9F24F5C03E3F61DD0B636F7109C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		39A065402BA0DBDD0C0B953B44C1C57D /* Sources */ = {
+		4245444A2A467997970BA217DB605B8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76AC34EC8AD81B8F49C7C098594CEBDA /* Pods-Test-Guid-MindboxNotificationContentExtension-dummy.m in Sources */,
+				CA786102D18F6108358F59BC25DC6F16 /* Pods-Test-Guid-MindBoxNotificationContent-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -897,17 +897,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4BE798D9BB0818E51146A330F24003AD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Mindbox;
-			target = F09FD53C0D7355712413F61F1C377646 /* Mindbox */;
-			targetProxy = E6662C54183DC47C8B6BF2CEA6C7CF3C /* PBXContainerItemProxy */;
-		};
 		6A6B2C61EDA24AEB113C66837DB19F28 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Mindbox;
 			target = F09FD53C0D7355712413F61F1C377646 /* Mindbox */;
 			targetProxy = 03E8F62802965AE0001536FF82EB0582 /* PBXContainerItemProxy */;
+		};
+		CD7C887561CCB6DE14ECCAF55E044BB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Mindbox;
+			target = F09FD53C0D7355712413F61F1C377646 /* Mindbox */;
+			targetProxy = 925ACDB107625C976E79108DEF9E744C /* PBXContainerItemProxy */;
 		};
 		D873483419964A17D319E9F136CD97D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -920,7 +920,7 @@
 /* Begin XCBuildConfiguration section */
 		1E4061DD7C13B74DD04DD584655BEEB2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30AD685E70EB75B0F68C05A4174A046E /* Pods-Test-Guid-MindboxNotificationServiceExtension.release.xcconfig */;
+			baseConfigurationReference = 02CDCAB3339AD8B946D72FE1813EEFF0 /* Pods-Test-Guid-MindboxNotificationServiceExtension.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -958,7 +958,7 @@
 		};
 		3011D3616FF85B7DEBDF5639115EF406 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A17E6FEA0E02E05C6E7CE25577565FC /* Pods-Test-Guid.release.xcconfig */;
+			baseConfigurationReference = 229ADF5CC3764135935E43737A28ECEA /* Pods-Test-Guid.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -994,9 +994,9 @@
 			};
 			name = Release;
 		};
-		3686AA316D6F2E837545CF4C70765830 /* Debug */ = {
+		357EDF085DA5DB7F08A12DABA9B08A35 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4307117235406651392CC7198720E1EE /* Pods-Test-Guid-MindboxNotificationContentExtension.debug.xcconfig */;
+			baseConfigurationReference = F777BF5BE5F74E7A648962C83352E4A9 /* Pods-Test-Guid-MindBoxNotificationContent.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1008,7 +1008,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Test-Guid-MindboxNotificationContentExtension/Pods-Test-Guid-MindboxNotificationContentExtension-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Test-Guid-MindBoxNotificationContent/Pods-Test-Guid-MindBoxNotificationContent-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1017,7 +1017,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Test-Guid-MindboxNotificationContentExtension/Pods-Test-Guid-MindboxNotificationContentExtension.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Test-Guid-MindBoxNotificationContent/Pods-Test-Guid-MindBoxNotificationContent.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1104,9 +1104,9 @@
 			};
 			name = Debug;
 		};
-		B95495098B8659DE4C28D6E9D8B38C02 /* Release */ = {
+		B49FFEA66D520D31382CBA867637EAB1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E7E2ADA9952C28EA9ED572F6720FC03 /* Pods-Test-Guid-MindboxNotificationContentExtension.release.xcconfig */;
+			baseConfigurationReference = 41FF566304FB86AB3F37EC50A83F532A /* Pods-Test-Guid-MindBoxNotificationContent.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1118,7 +1118,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Test-Guid-MindboxNotificationContentExtension/Pods-Test-Guid-MindboxNotificationContentExtension-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Test-Guid-MindBoxNotificationContent/Pods-Test-Guid-MindBoxNotificationContent-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1127,7 +1127,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Test-Guid-MindboxNotificationContentExtension/Pods-Test-Guid-MindboxNotificationContentExtension.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Test-Guid-MindBoxNotificationContent/Pods-Test-Guid-MindBoxNotificationContent.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1272,7 +1272,7 @@
 		};
 		C6D0CE4EC3309228262A985618405627 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3CD608D298B42FEC1991D1169D4CB8F /* Pods-Test-Guid-MindboxNotificationServiceExtension.debug.xcconfig */;
+			baseConfigurationReference = 089D6695FB3D9D2ABE33F5635D21AEFD /* Pods-Test-Guid-MindboxNotificationServiceExtension.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1309,7 +1309,7 @@
 		};
 		CF8FA29E9A19F3E36AB554DEAD111C7F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83C6830E61D7C689CE9D1B328B865FAB /* Pods-Test-Guid.debug.xcconfig */;
+			baseConfigurationReference = 66282E574A9A9585060545F608376E80 /* Pods-Test-Guid.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1365,20 +1365,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		4C1521DBD95E986703A9F3C37ED4A95E /* Build configuration list for PBXNativeTarget "Pods-Test-Guid-MindBoxNotificationContent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				357EDF085DA5DB7F08A12DABA9B08A35 /* Debug */,
+				B49FFEA66D520D31382CBA867637EAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		602E509898D4473C758C497641704E8B /* Build configuration list for PBXNativeTarget "Pods-Test-Guid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF8FA29E9A19F3E36AB554DEAD111C7F /* Debug */,
 				3011D3616FF85B7DEBDF5639115EF406 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		73EC874B673C713898D332216CCEE8AB /* Build configuration list for PBXNativeTarget "Pods-Test-Guid-MindboxNotificationContentExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3686AA316D6F2E837545CF4C70765830 /* Debug */,
-				B95495098B8659DE4C28D6E9D8B38C02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

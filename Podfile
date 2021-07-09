@@ -17,7 +17,7 @@ target 'Test-Guid' do
    mindbox
  end
  
- target 'MindboxNotificationContentExtension' do
+ target 'MindBoxNotificationContent' do
    mindbox
  end
 end

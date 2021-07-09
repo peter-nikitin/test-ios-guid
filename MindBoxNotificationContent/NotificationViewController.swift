@@ -1,8 +1,8 @@
 //
 //  NotificationViewController.swift
-//  MindboxNotificationContentExtension
+//  MindBoxNotificationContent
 //
-//  Created by Никитин Петр on 09.06.2021.
+//  Created by Никитин Петр on 09.07.2021.
 //
 
 import UIKit
@@ -10,6 +10,7 @@ import UserNotifications
 import UserNotificationsUI
 import Mindbox
 
+@available(iOSApplicationExtension 12.0, *)
 class NotificationViewController: UIViewController, UNNotificationContentExtension {
     
     lazy var mindboxService = MindboxNotificationService()
@@ -20,4 +21,3 @@ class NotificationViewController: UIViewController, UNNotificationContentExtensi
     }
     
 }
-

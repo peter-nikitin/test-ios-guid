@@ -8,13 +8,12 @@
 import UserNotifications
 import Mindbox
 
-
 class NotificationService: UNNotificationServiceExtension {
     
     lazy var mindboxService = MindboxNotificationService()
-    
+
     override func didReceive(_ request: UNNotificationRequest, withContentHandler contentHandler: @escaping (UNNotificationContent) -> Void) {
-        
+        Mindbox.logger.logLevel = .debug
         mindboxService.didReceive(request, withContentHandler: contentHandler)
     }
     

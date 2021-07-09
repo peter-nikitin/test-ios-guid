@@ -1,6 +1,0 @@
-framework module Pods_Test_Guid_MindboxNotificationContentExtension {
-  umbrella header "Pods-Test-Guid-MindboxNotificationContentExtension-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "127CFF838902F6609FF3A732D203B12C"
-               BuildableName = "Pods_Test_Guid_MindboxNotificationContentExtension.framework"
-               BlueprintName = "Pods-Test-Guid-MindboxNotificationContentExtension"
+               BlueprintIdentifier = "948633F8B773E2A59F6F7AB6D1A4D6A3"
+               BuildableName = "Pods_Test_Guid_MindBoxNotificationContent.framework"
+               BlueprintName = "Pods-Test-Guid-MindBoxNotificationContent"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

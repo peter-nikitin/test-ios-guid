@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_Test_Guid_MindboxNotificationContentExtensionVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_Test_Guid_MindboxNotificationContentExtensionVersionString[];
+FOUNDATION_EXPORT double Pods_Test_Guid_MindBoxNotificationContentVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_Test_Guid_MindBoxNotificationContentVersionString[];
 
